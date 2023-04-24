@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import RandomNumbers from '../components/RandomNumbers.vue'
+import PhoneNumber from '../components/PhoneNumber.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
